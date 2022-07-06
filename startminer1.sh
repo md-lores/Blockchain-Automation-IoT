@@ -1,0 +1,1 @@
+geth --identity "miner1" --networkid 42 --mine --datadir "~/RPI/miner1" --http --http.port "8042" --port 30303 --nodiscover --http.api eth,web,web3,private,miner,admin,txpool,debug,personal,net --allow-insecure-unlock --unlock 0 --password ~/RPI/password.sec --ipcpath "~/.ethereum/geth.ipc"
